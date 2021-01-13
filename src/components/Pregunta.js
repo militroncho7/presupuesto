@@ -1,7 +1,7 @@
 import React, {Fragment, useState} from 'react';
 import Error from './Error';
 
-const Pregunta = ({guardarPresupuesto, guardarRestante}) => {
+const Pregunta = ({guardarPresupuesto, guardarRestante, actualizarPregunta}) => {
 
     //Definir el state: lo definimos aquí porque no pasa por los demás componentes
     const [cantidad, guardarCantidad] = useState(0);
@@ -27,6 +27,9 @@ const Pregunta = ({guardarPresupuesto, guardarRestante}) => {
         //Accedemos al presupuesto y al restante
         guardarPresupuesto(cantidad);
         guardarRestante(cantidad);
+
+        //Para cargar de una formal funcional el componente (mostrar o ocultar)
+        actualizarPregunta(false);
     }
 
 
