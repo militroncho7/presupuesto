@@ -11,6 +11,16 @@ function App() {
   //Carga funcional de componentes
   const [mostrarpregunta, actualizarPregunta] = useState(true);
 
+  //Función que se ejecuta cuando agreguemos un nuevo gasto
+  const [gastos, guardarGastos] = useState([]);
+
+  const agregarNuevoGasto = gasto => {
+    guardarGastos([
+      ...gastos,
+      gasto
+    ]);
+  };
+
 
   return (
     <div className="container">
@@ -28,7 +38,9 @@ function App() {
             ) : (
               <div className="row">
                 <div className="one-half column">
-                  <Formulario />
+                  <Formulario 
+                    agregarNuevoGasto={agregarNuevoGasto}
+                  />
                 </div>
 
                 <div className="one-half column">
