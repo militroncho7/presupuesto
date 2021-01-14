@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react';
+import Logo from './components/Logo';
 import Pregunta from './components/Pregunta';
 import Formulario from './components/Formulario';
 import Listado from './components/Listado';
 import ControlPresupuesto from './components/ControlPresupuesto';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -37,7 +39,8 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Gasto Semanal</h1>
+        <Logo />
+        <h1>¡Controla tu presupuesto!</h1>
 
         <div className="contenido-principal contenido">
           {mostrarpregunta ? 
@@ -70,6 +73,8 @@ function App() {
 
         </div>
       </header>
+
+      <Footer />
     </div>
   );
 }
