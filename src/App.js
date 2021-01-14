@@ -32,7 +32,7 @@ function App() {
         //Resetear a false
         guadarCrearGasto(false);
       }
-  }, [gasto])
+  }, [gasto, creargasto, gastos, restante])
 
   return (
     <div className="container">
