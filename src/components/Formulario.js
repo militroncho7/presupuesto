@@ -59,7 +59,7 @@ const Formulario = ({agregarNuevoGasto}) => {
                 <input 
                     type="number"
                     className="u-full-width"
-                    placeholder="Ejemplo: 300"
+                    placeholder="Ejemplo: 300€"
                     value={cantidad}
                     onChange={e => guardarCantidad(parseInt(e.target.value, 10))}
                 />
