@@ -1,72 +1,47 @@
-# Getting Started with Create React App
+![logo-Presupuesto](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610711521/Presupuesto/logo-presupuesto_gigt2v.png)
 
-Decirle al usuario de forma visual que se le está terminando su presupuesto
+# Adminsitrador de Presupuesto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación web que administra un presupuesto de una manera gráfica y sencilla para el usuario [Tu Presupuesto 📝](https://elegant-montalcini-a0e495.netlify.app/).
 
-## Available Scripts
+## Sitio Web
+---
+![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610630702/Presupuesto/screencapture-elegant-montalcini-a0e495-netlify-app-2021-01-14-13_43_43_dnp7uf.png)
 
-In the project directory, you can run:
+App realizada mediante la libería React.js.
 
-### `npm start`
+- Creada con componentes funcionales
+- Manenjando los diferentes estados en el formulario (Hook useState)
+- Validación de formularios y de presupuesto (Strings vacios, numbers, ...)
+- Mensajes del error al rellenar los inputs
+- Asignación de IDs únicos
+- Reinicio del formulario cuando lo envía el usuario
+- Visualización gráfica del presupuesto, gastos, presupuesto restante, ...
+- Clases condicionales en función del presupuesto restante
+- Carga condicional de componenetes en función
+- Resetear el formulario al enviarlo
+- Documentando con PropTypes
+- Deployment del proyecto (netlify)
+- Buenas prácticas en el código
+- Trabajo en GitHub mediante ramas y commits
+- Totalmente Responsive:
+---
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610711521/Presupuesto/iphone_4_brinwi.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610711521/Presupuesto/iphone_2_1_d2l8e3.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Cómo contribuir
+---
+Toda aportación o comentario será recibido de buen gusto, ya que con ellos se podrá ayudar a crecer tanto a la app como a nosotros como desarrolladores.
 
-### `npm run build`
+Cualquier mejora será incluida tras una previa revisión a través de un “pull requests”.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Se requiere un código ordenado y comentado.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Autor
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![VR-Logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610528741/Logos%20VR/logo-vr_cmhmpa.jpg) || [Víctor Ruiz](https://www.linkedin.com/in/victormmorales/)
